@@ -21,3 +21,15 @@ and grouping all words with the same signature together.
 represent a contiguous block of elements. This is elegantly solved by employing a bunch of `reverse` operations
 on the array. 
 * Rotate matrix in place. Solved by using an in-place transposition algorithm.
+
+
+# Column 3 - Data Structures
+
+* Design a clean and maintable algorithm to process tax amounts for various input incomes. Key was to use 
+an array.
+
+# Column 8 - Algorithm Design Techniques
+
+* A turnpike consists of `n - 1` streches of road between `n` toll stations. Each strech has an associated cost
+of travel. Design a data structure that requires `O(n)` space but allows the cost of any route to be computed in 
+constant time. Key was the use of **prefix arrays.**
