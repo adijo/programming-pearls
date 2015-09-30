@@ -20,4 +20,4 @@ and grouping all words with the same signature together.
 * Rotate a vector by `i` positions in-place. Boils down to changing vector `ab` to `ba` where `a` and `b`
 represent a contiguous block of elements. This is elegantly solved by employing a bunch of `reverse` operations
 on the array. 
-
+* Rotate matrix in place. Solved by using an in-place transposition algorithm.
