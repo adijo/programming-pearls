@@ -33,3 +33,7 @@ an array.
 * A turnpike consists of `n - 1` streches of road between `n` toll stations. Each strech has an associated cost
 of travel. Design a data structure that requires `O(n)` space but allows the cost of any route to be computed in 
 constant time. Key was the use of **prefix arrays.**
+
+# Column 15 - String Of Pearls
+
+* Find the longest repeated substring in a string. Example, `LRS(banana) = ana`. The problem can be solved using **suffix arrays.**
