@@ -37,6 +37,7 @@ constant time. Key was the use of **prefix arrays.**
 # Column 14 - Heaps
 
 * Implement a Priority Queue.
+* Implemented a sequencial disk access method that adds an additional pointer to every node to enable logarithmic index access time. Time and space complexity is `log(n)` when there are `n` elements in the list. The logarithmic access time is achieved by storing an additional `jump` pointer at every node. The functionality is similar to that of finding the `ith` power of a number in `log(i)` time. For example, to find the `5th` element, we would visit `5 -> 4 -> 2 -> 1`. 
 
 # Column 15 - String Of Pearls
 
