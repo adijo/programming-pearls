@@ -34,6 +34,10 @@ an array.
 of travel. Design a data structure that requires `O(n)` space but allows the cost of any route to be computed in 
 constant time. Key was the use of **prefix arrays.**
 
+# Column 14 - Heaps
+
+* Implement a Priority Queue.
+
 # Column 15 - String Of Pearls
 
 * Find the longest repeated substring in a string. Example, `LRS(banana) = ana`. The problem can be solved using **suffix arrays.**
