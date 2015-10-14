@@ -37,3 +37,4 @@ constant time. Key was the use of **prefix arrays.**
 # Column 15 - String Of Pearls
 
 * Find the longest repeated substring in a string. Example, `LRS(banana) = ana`. The problem can be solved using **suffix arrays.**
+* Given a new input string, how would you search a suffix array to find the longest match in the given text? Solved using **binary search.**
