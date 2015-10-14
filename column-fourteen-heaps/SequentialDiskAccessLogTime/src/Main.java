@@ -10,9 +10,8 @@ public class Main
 		ll.add(7);
 		ll.add(123);
 
-
-		
-		for(int i = 1; i <= ll.getCount(); i++) System.out.println(ll.getNode(i));
+		for(int i = 1; i <= ll.getCount(); i++) 
+			System.out.println(ll.getNode(i));
 	}
 
 
